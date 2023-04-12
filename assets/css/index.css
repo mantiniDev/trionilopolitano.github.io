@@ -1,29 +1,33 @@
-body{
-    background: url("assets\media\plateia.jpg");
-    color: white;
-    height: 1000px;
-    padding: 100px 0 0 0;
-    background-repeat: repeat;
+body {
+   background: url("assets/media/plateia.jpg");
+   background-size: cover;
+   color: white;
+   height: 1000px;
+   padding: 100px 0 0 0;
+   background-repeat: no-repeat;
    background-position-x: center;
-    }
+}
+
 h4 {
- color: #f7b32b;
- font-family: 'Comic Neue', cursive;
+   color: #f7b32b;
+   font-family: 'Comic Neue', cursive;
 }
-p {
- color: red;
-}
+
+
 dev {
    color: #f7b32b;
    font-family: 'Comic Neue', cursive;
 }
+
 h5 {
- color: #f7b32b;
- font-family: 'Comic Neue', cursive;
+   color: #f7b32b;
+   font-family: 'Comic Neue', cursive;
 }
+
 a {
    color: #f7b32b;
 }
+
 a:hover {
    color: #FCF6B1;
 }
@@ -31,40 +35,48 @@ a:hover {
 .container {
    display: flex;
    flex-wrap: wrap;
+   justify-content: space-between;
 }
+
+#container-2 {
+   margin-top: 30px;
+}
+
 .video {
    flex-basis: 50%;
    box-sizing: border-box;
    padding: 0 10px;
 }
+
 iframe {
    width: 100%;
-   height: 100%;
+   height: 200%;
    border: none;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 500px) {
    .video {
       flex-basis: 100%;
    }
 }
 
 footer {
- background-color: #2d1e2f;
- padding: 20px;
- text-align: center;
- font-size: 14px;
- color: #f7b32b;
- font-family: 'Comic Neue', cursive;
+   background-color: #2d1e2f;
+   padding: 20px;
+   text-align: center;
+   font-size: 14px;
+   color: #f7b32b;
+   font-family: 'Comic Neue', cursive;
 }
 
 footer p {
- margin: 0;
- color: #f7b32b;
+   margin: 0;
+   color: #f7b32b;
 }
 
 footer a {
- color: #f7b32b;
- text-decoration: none;
- font-family: 'Orbitron', regular;
+   color: #f7b32b;
+   text-decoration: none;
+   font-family: 'Orbitron', regular;
 
 }
