@@ -1,5 +1,5 @@
 body{
-    background: url("/static/media/plateia.jpg");
+    background: url("assets\media\plateia.jpg");
     color: white;
     height: 1000px;
     padding: 100px 0 0 0;
