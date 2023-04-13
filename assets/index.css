@@ -1,12 +1,4 @@
-body {
-   background: url("assets/media/plateia.jpg");
-   background-size: cover;
-   color: white;
-   height: 1000px;
-   padding: 100px 0 0 0;
-   background-repeat: no-repeat;
-   background-position-x: center;
-}
+
 
 h4 {
    color: #f7b32b;
@@ -36,10 +28,6 @@ a:hover {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-}
-
-#container-2 {
-   margin-top: 30px;
 }
 
 .video {
@@ -80,3 +68,4 @@ footer a {
    font-family: 'Orbitron', regular;
 
 }
+
