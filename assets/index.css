@@ -15,7 +15,7 @@ h5 {
 }
 
 a {
-   color: #f7b32b;
+   color: #080808;
 }
 
 a:hover {
@@ -51,28 +51,24 @@ footer {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #2d1e2f;
+   background-color: #f1eaf1;
    padding: 10px;
    text-align: center;
    font-size: 14px;
-   color: #f7b32b;
+   color: #111110;
    font-family: 'Comic Neue', cursive;
 }
 
 footer p {
    margin: 0;
-   color: #f7b32b;
+   color: #0f0f0f;
 }
 
 footer a {
-   color: #f7b32b;
+   color: #0f0f0f;
    text-decoration: none;
    font-family: 'Orbitron', regular;
-
 }
 
-nav{
-   font-family: 'Comic Neue', cursive;
-   color: #2d1e2f;
-}
+
 

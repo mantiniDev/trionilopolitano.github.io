@@ -33,33 +33,64 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/logo_2.png" alt="Logo" width="130" height="50" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 --bs-warning-text-emphasis">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="historia.html">Composição</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                </span>
-            </div>
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color: #FCF6B1;"">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo_2.png" alt="Logo" width="130" height="50" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color:#2d1e2f">
+                  <i>Home</i> 
+                </a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html" style="color:#2d1e2f">
+                <i>Composição</i> 
+              </a>
+            </li>            
+          </ul>
         </div>
-    </nav>
+      </nav>
     <div class="container">
-        <h1>Em Construção </h1>
-        
+        <h1>Eventos Marcados</h1>
+        <ul class="list-unstyled eventos-lista">
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 1</h3>
+                    <p>Data: 01/05/2023</p>
+                    <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae risus euismod,
+                        tincidunt sapien a, consectetur nibh.</p>
+                </div>
+            </li>
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 2</h3>
+                    <p>Data: 15/06/2023</p>
+                    <p>Descrição: Nullam vel fermentum tellus, eget laoreet ipsum. Fusce ultricies turpis ut quam
+                        placerat, in elementum nisl faucibus.</p>
+                </div>
+            </li>
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 3</h3>
+                    <p>Data: 30/07/2023</p>
+                    <p>Descrição: Sed maximus leo ut massa tincidunt, vel faucibus velit pulvinar. Donec ut purus
+                        auctor, bibendum nulla at, fermentum quam.</p>
+                </div>
+            </li>
+        </ul>
     </div>
+
+
+
     <footer>
         <p>&copy; 2023 - Todos os direitos reservados. <a href="http://www.mantinidev.com.br">BeMan</a></p>
     </footer>
