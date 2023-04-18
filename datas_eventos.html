@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/cglobal.css">
     <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/eventos.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon_trio.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
@@ -32,40 +33,64 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md fixed-top" style="background-color: #FCF6B1;">
-        <a class=" navbar-brand" href="#">
-        <img src="assets/logo_2.png" alt="Logo" width="130" height="50" class="d-inline-block align-text-top">
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color: #FCF6B1;"">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo_2.png" alt="Logo" width="130" height="50" class="d-inline-block align-text-top">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="datas_eventos.html" style="color:#2d1e2f">
-                        <i>Agenda de shows</i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="historia.html" style="color:#2d1e2f">
-                        <i>Composição</i>
-                    </a>
-                </li>
-            </ul>
+          <ul class="navbar-nav">
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color:#2d1e2f">
+                  <i>Home</i> 
+                </a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="historia.html" style="color:#2d1e2f">
+                <i>Composição</i> 
+              </a>
+            </li>            
+          </ul>
         </div>
-    </nav>
-    <link rel="stylesheet" href="assets/index.css">
+      </nav>
     <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="row justify-content-md-center container-fluid">
-                <img src='assets/LOGO_3.png' class="img-fluid" alt="">
-            </div>
-        </div>
+        <h1>Eventos Marcados</h1>
+        <ul class="list-unstyled eventos-lista">
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 1</h3>
+                    <p>Data: 01/05/2023</p>
+                    <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae risus euismod,
+                        tincidunt sapien a, consectetur nibh.</p>
+                </div>
+            </li>
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 2</h3>
+                    <p>Data: 15/06/2023</p>
+                    <p>Descrição: Nullam vel fermentum tellus, eget laoreet ipsum. Fusce ultricies turpis ut quam
+                        placerat, in elementum nisl faucibus.</p>
+                </div>
+            </li>
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 3</h3>
+                    <p>Data: 30/07/2023</p>
+                    <p>Descrição: Sed maximus leo ut massa tincidunt, vel faucibus velit pulvinar. Donec ut purus
+                        auctor, bibendum nulla at, fermentum quam.</p>
+                </div>
+            </li>
+        </ul>
     </div>
-    <br>
-    </div>
+
+
+
     <footer>
         <p>&copy; 2023 - Todos os direitos reservados. <a href="http://www.mantinidev.com.br">BeMan</a></p>
     </footer>

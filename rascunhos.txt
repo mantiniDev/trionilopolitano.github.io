@@ -1,0 +1,23 @@
+<div class="container">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/o6aRPxV4lUg?start=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8-DrMBLd-U0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+
+Foto do trio.
+<div class="row justify-content-md-center container-fluid">
+                    <img src='assets/foto_trio.jpg' class="img-fluid">
+                    <hr>
+                </div>

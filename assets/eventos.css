@@ -1,0 +1,16 @@
+.eventos-lista {
+    margin-top: 50px;
+  }
+  .evento-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .evento-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .evento-item p {
+    margin-bottom: 0;
+  }
