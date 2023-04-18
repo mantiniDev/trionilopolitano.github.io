@@ -28,11 +28,6 @@ a:hover {
    justify-content: space-between;
 }
 
-.video {
-   flex-basis: 50%;
-   box-sizing: border-box;
-   padding: 0 10px;
-}
 
 iframe {
    width: 100%;

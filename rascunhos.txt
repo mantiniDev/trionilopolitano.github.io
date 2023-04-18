@@ -21,3 +21,37 @@ Foto do trio.
                     <img src='assets/foto_trio.jpg' class="img-fluid">
                     <hr>
                 </div>
+
+Agenda
+<div class="container">
+        <h1>Eventos Marcados</h1>
+        <ul class="list-unstyled eventos-lista">
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 1</h3>
+                    <p>Data: 01/05/2023</p>
+                    <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae risus euismod,
+                        tincidunt sapien a, consectetur nibh.</p>
+                </div>
+            </li>
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 2</h3>
+                    <p>Data: 15/06/2023</p>
+                    <p>Descrição: Nullam vel fermentum tellus, eget laoreet ipsum. Fusce ultricies turpis ut quam
+                        placerat, in elementum nisl faucibus.</p>
+                </div>
+            </li>
+            <li class="media evento-item">
+                <img class="mr-3" src="https://via.placeholder.com/64x64" alt="Imagem do Evento">
+                <div class="media-body">
+                    <h3 class="mt-0 mb-1">Evento 3</h3>
+                    <p>Data: 30/07/2023</p>
+                    <p>Descrição: Sed maximus leo ut massa tincidunt, vel faucibus velit pulvinar. Donec ut purus
+                        auctor, bibendum nulla at, fermentum quam.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
